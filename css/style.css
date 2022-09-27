@@ -4,6 +4,9 @@
   padding: 0%;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: white;
   background-image: url(/pic/back5.jpg);
@@ -145,12 +148,12 @@ body {
   padding: 10px;
   letter-spacing: 1px;
 }
-.img {
+/* .img {
   margin: 1% 4%;
 }
 div img {
   padding: 20px;
-}
+} */
 .shedule {
   background-color: rgb(40, 61, 42);
   height: 500px;
@@ -229,12 +232,32 @@ footer {
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.footer{
+.footer {
   position: absolute;
   left: 10%;
 }
-.svg{
+.svg {
   /* position: absolute; */
   top: 20%;
   left: 50%;
+}
+.img-container {
+  /* align-items: center; */
+  display: flex !important;
+  /* justify-content: space-between; */
+  width: 33%;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  /* margin: 10px; */
+  /* flex-direction: column; */
+}
+.img-container img {
+  width: 100%;
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* margin: auto; */
+  /* background-size: cover; */
+  object-fit: contain;
 }
