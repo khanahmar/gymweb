@@ -4,12 +4,12 @@
   padding: 0%;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
   color: white;
-  background-image: url(/pic/back5.jpg);
+  background-image: url("https://ibb.co/cYsv8Kh");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
